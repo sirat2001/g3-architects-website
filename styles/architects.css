@@ -12,6 +12,14 @@
   .display-flex{
     display: flex;
   }
+  /* dark-02 */
+  .text-gray{
+    color: #424242;
+  }
+  /* dark-03 */
+  .text-light-gray{
+
+  }
    /* navbar related style */
    .nav-item{
     list-style: none;
@@ -22,4 +30,7 @@
    .nav-link{
     text-decoration: none;
     font-weight: 500px;
+   }
+   .navbar{
+    justify-content: space-between;
    }
