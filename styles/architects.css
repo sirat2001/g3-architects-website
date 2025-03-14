@@ -143,11 +143,15 @@ main{
   {
     flex-direction: column;
   }
-  .team-img-container{
-    grid-template-columns: repeat(1, 1fr);
+  .team-img-container, .facts-container {
+    grid-template-columns: 1fr;
   }
   .our-features{
     margin-left: 20px;
+  }
+  .facts-container{
+    justify-items: center;
+    gap: 24px;
   }
 }
 /* medium Size device */
